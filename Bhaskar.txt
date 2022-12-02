@@ -1,0 +1,16 @@
+Updat the Bhaskar.txt like change 3 – master branch
+# git add .
+# git commit -m "master commit"
+# git checkout bugfix : Switch to bugfix branch. Switched to
+branch 'bugfix'
+Check the file and see the contents in file.
+#git checkout master
+#git diff master bugfix
+#git merge bugfix
+Fix the conflicts
+#git add .
+#git commit –m “merging”
+#git push origin --all : Push all branches code to your remote repository.
+#git branch -d bugfix: Deletes the bugfix branch in local repo.
+#git push origin : bugfix (OR) git push origin --delete bugfix: It will delete a remote branch in the
+repository
