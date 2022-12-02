@@ -1,0 +1,11 @@
+iBranch
+➢ Branches are used to create another line of development.
+➢ By default, Git has a master branch, which is same as trunk in Subversion (SVN). Usually, a
+branch is created to work on a new feature.
+➢ Once the feature is completed, it is merged back with the master branch and we delete the branch.
+Tags
+➢ Tags similar to branches, but the difference is that tags are immutable.
+➢ It means, tag is a branch, which nobody intends to modify. Once a tag is created for a particular
+commit, even if you create a new commit, it will not be updated.
+➢ Usually, developers create tags for product releases.
+#git branch : It gives the branch names in current repository.
